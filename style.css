@@ -1,0 +1,224 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7c8d3;
+  color: #332d2d;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: Playfair Display;
+  background-color: #d8738f;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+  color: #332d2d;
+}
+
+.header {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.header-logo {
+  justify-content: flex-start;
+  color: #801d5c;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.header-links {
+  display: flex;
+  justify-self: flex-end;
+  gap: 20px;
+  font-size: 12px;
+  
+}
+
+li {
+  color: #332d2d;
+  justify-self: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  justify-content: flex-end;
+  color: #332d2d;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  color: #332d2d;
+  font-size: 30px;
+  align-items: center;
+  justify-content: space-between;
+  gap:50px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-sub {
+  color: #332d2d;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: Playfair Display;
+}
+
+button {
+  display: inline-block;
+  background-color: #801d5c;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  font-family: Playfair Display;
+}
+
+.hero img {
+  box-shadow: 0 4px 8px 0;
+  transition: 0.3s;
+  background-color: #d8a7b1;
+  width: 350px;
+  height: 400px;
+  font-size: 15px;
+  color: #801d5c;
+  border-radius: 7px;
+}
+img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* part-two */
+
+.cards-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.cards-info h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: #801d5c;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  justify-content: center;
+  border: 20px;
+  border-radius: 8px;
+}
+
+.card h4 {
+  color: #801d5c;
+  margin: 15px 0 5px 0;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cards {
+  padding: 2px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: none;
+}
+
+/* testimonials */
+
+.testimonials{
+    background-color: #C48E99;
+    padding: 20px;
+}
+.testimonials blockquote{
+    color: #F9E9EC;
+    position: relative;
+    font-size: 30px;
+    font-style:italic;
+}
+
+.testimonials cite{
+    color: #801d5c;
+    display: block;
+    text-align:center;
+    font-weight: 900;
+    font-family:'Fraunces';
+}
+
+.cta{
+    font-family: 'Fraunces';
+    border: 2px solid #9b3d6e;
+    color: #2c1b1e;
+    background-color: #d8738f;
+    display: flex;
+    text-align: center;
+    min-width: 700px;
+    margin: 50px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.cta h4{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Fraunces';
+}
+
+.cta-left{
+    display: flex;
+   flex-direction: column;
+}
+.cta button{
+    border-color: #801d5c;
+    align-items: center;
+    width: 100px;
+    height:50px;
+    font-family: 'Fraunces';
+    background-color:#801d5c;
+}
+
+footer{
+    background-color: #d7a2b4;
+    display: flex;
+    color: #801d5c;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
